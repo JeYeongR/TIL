@@ -1,6 +1,6 @@
 ## 220914-start-git.md
 
-` 첫날`
+` git & github`
 
 ## Shell은 무엇인가?
 
@@ -45,3 +45,28 @@
 - q! : 변화 저장없이 나가기
 - w : 저장
 - wq : 저장하고 나가기
+
+## git의 특징
+
+- 빠른속도, 단순한 구조
+- 분산형 저장소 지원
+- 비선형적 개발(수천개의 브랜치) 가능
+
+## git과 github의 차이점
+
+- git : 오픈 소스 버전 관리 시스템
+- github : git repository를 위한 웹 기반 호스팅 서비
+
+## git 환경설정
+
+```
+$ git config --global user.name "유저네임"
+$ git config --global user.email "이메일주소"
+$ git config --global core.editor "vim"
+$ git config --global core,pager "cat"
+```
+
+- 정상 설정 확인
+`$ git config --list`
+
+
